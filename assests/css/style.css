@@ -282,3 +282,28 @@ body {
     pointer-events: all;
     opacity: 1;
 }
+
+/*-----------------------------------*\
+ * #HERO
+\*-----------------------------------*/
+
+.hero {
+    background: var(--gradient);
+    padding: 150px 0 var(--section-padding);
+}
+
+.hero-banner {
+    margin-bottom: 30px;
+}
+
+.hero-banner img {
+    width: 100%;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.hero .section-text {
+    margin-bottom: 45px;
+}
