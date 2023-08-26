@@ -1,0 +1,86 @@
+/* style section */
+
+/* custom property */
+:root {
+
+    /* custom colors*/
+    --rich-black-fogra-29: hsl(240, 13%, 8%);
+    --silver-chalice: hsl(0, 0%, 70%);
+    --floral-white: hsl(38, 100%, 98%);
+    --raisin-black: hsl(240, 8%, 18%);
+    --sonic-silver: hsl(240, 3%, 45%);
+    --mango-tango: hsl(20, 100%, 64%);
+    --orange-web: hsl(39, 100%, 50%);
+    --cultured: hsl(210, 17%, 98%);
+    --mantis: hsl(118, 41%, 62%);
+    --gambog: hsl(39, 100%, 45%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --onyx: hsl(0, 0%, 23%);
+
+    --gradient: linear-gradient(90deg, hsl(38, 100%, 98%) 21.32%, hsl(144, 45%, 98%) 130%);
+
+    /* typography */
+    --ff-poppins: 'Poppins', sans-serif;
+    --ff-rubik: 'Rubik', sans-serif;
+    --dm-sans: 'DM Sans', sans-serif;
+
+    /* Font Size */
+    --fs-1: 30px;
+    --fs-2: 28px;
+    --fs-3: 24px;
+    --fs-4: 20px;
+    --fs-5: 18px;
+
+    /* Font weight */
+    --fw-500: 500;
+    --fw-700: 700;
+
+    /* Transition */
+    --transition: 0.2s ease-in-out;
+
+    /* Space */
+    --section-padding: 80px;
+
+}
+
+/* ##RESET */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+img,
+span,
+button,
+ion-icon {
+    display: block;
+}
+
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+html {scroll-behavior: smooth;}
+
+body {background: var(--white);}
+
+
+
+
+/* REUSED STYLE */
