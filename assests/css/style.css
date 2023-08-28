@@ -504,3 +504,20 @@ body {
 
 
 
+
+/*-----------------------------------*\
+ * #CTA
+\*-----------------------------------*/
+
+.cta {
+    background: var(--raisin-black);
+    padding-block: 50px;
+  }
+  
+  .cta-title {
+    color: var(--white);
+    margin-bottom: 30px;
+  }
+  
+  .cta-banner { display: none; }
+
