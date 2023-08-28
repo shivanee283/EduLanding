@@ -446,3 +446,61 @@ body {
 .departments .btn-primary {
     margin-inline: auto;
 }
+
+
+
+
+
+
+/*-----------------------------------*\
+ * #INSTRUCTOR
+\*-----------------------------------*/
+
+.instructor { padding-block: var(--section-padding); }
+
+.instructor .title-wrapper { margin-bottom: 80px; }
+
+.instructor-title { margin-bottom: 30px; }
+
+.instructor-list {
+  display: grid;
+  gap: 40px;
+}
+
+.instructor-card { text-align: center; }
+
+.instructor-card .card-banner {
+  margin-bottom: 30px;
+  transition: var(--transition);
+}
+
+.instructor-card:hover .card-banner { transform: translateY(-5px); }
+
+.instructor-card img {
+  width: 100%;
+  max-width: max-content;
+  margin-inline: auto;
+}
+
+.instructor-card .card-title {
+  color: var(--onyx);
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-2);
+}
+
+.instructor-card .card-subtitle { margin-bottom: 15px; }
+
+.card-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-social-link {
+  color: var(--onyx);
+  font-size: 18px;
+}
+
+
+
